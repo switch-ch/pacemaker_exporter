@@ -34,6 +34,10 @@
   name = "github.com/prometheus/common"
 
 [[constraint]]
+  branch = "master"
+  name = "github.com/prometheus-community/windows_exporter"
+
+[[constraint]]
   name = "gopkg.in/alecthomas/kingpin.v2"
   version = "2.2.6"
 

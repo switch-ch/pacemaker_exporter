@@ -29,14 +29,6 @@
   revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
-  digest = "1:f1890584cc7dba0d93e6bee654057833b3c3190088691a5328f9f348d09090b1"
-  name = "github.com/go-kit/kit"
-  packages = ["log/level"]
-  pruneopts = "UT"
-  revision = "251777ffd4f40c09ed5bf239545b1dc6b1964a98"
-  version = "v0.12.0"
-
-[[projects]]
   digest = "1:7b13b5230d9cc2dd0483b5565c242e6a96dc1dfa00def849ca44c19ce5440097"
   name = "github.com/go-kit/log"
   packages = [
@@ -80,12 +72,12 @@
   revision = "c9dbcbb3bd3f3cf22ba5896bbd4d431ff6bc22fa"
 
 [[projects]]
-  digest = "1:2e773a3cc2e7b958285a8cd2668af959d6c617734e57693ee35d247b2de5d170"
+  branch = "master"
+  digest = "1:6fea8bccc42993a0444054eee02c9ef36ffeefc557e51ab59db0a4dead72d57f"
   name = "github.com/prometheus-community/windows_exporter"
   packages = ["log"]
   pruneopts = "UT"
-  revision = "f316d81d50738eb0410b0748c5dcdc6874afe95a"
-  version = "v0.16.0"
+  revision = "479e6b1381b2be3adf9909d897f745bda2cc458c"
 
 [[projects]]
   branch = "master"
