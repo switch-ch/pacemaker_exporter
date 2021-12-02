@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/prometheus-community/windows_exporter/log"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/common/log"
 )
 
 // execute crm_mon utility.
