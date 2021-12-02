@@ -29,6 +29,33 @@
   revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
+  digest = "1:f1890584cc7dba0d93e6bee654057833b3c3190088691a5328f9f348d09090b1"
+  name = "github.com/go-kit/kit"
+  packages = ["log/level"]
+  pruneopts = "UT"
+  revision = "251777ffd4f40c09ed5bf239545b1dc6b1964a98"
+  version = "v0.12.0"
+
+[[projects]]
+  digest = "1:7b13b5230d9cc2dd0483b5565c242e6a96dc1dfa00def849ca44c19ce5440097"
+  name = "github.com/go-kit/log"
+  packages = [
+    ".",
+    "level",
+  ]
+  pruneopts = "UT"
+  revision = "71fa7d7d64785c98d3814e53b3544fd8cccff897"
+  version = "v0.2.0"
+
+[[projects]]
+  digest = "1:833d559e697da601e5b53d0defde937e0c0ca61dade3d979aa46ed92c6d1ab47"
+  name = "github.com/go-logfmt/logfmt"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "2fe45f2cf057d707c50bc1949e25ec2cd6b7a015"
+  version = "v0.5.1"
+
+[[projects]]
   digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
@@ -43,6 +70,22 @@
   pruneopts = "UT"
   revision = "c12348ce28de40eed0136aa2b644d0ee0650e56c"
   version = "v1.0.1"
+
+[[projects]]
+  branch = "master"
+  digest = "1:93f3ce287c3222779c747558fa8fa06c593d6b68d5f1b9954cb8f607e0257c66"
+  name = "github.com/mjtrangoni/pacemaker_exporter"
+  packages = ["collector"]
+  pruneopts = "UT"
+  revision = "c9dbcbb3bd3f3cf22ba5896bbd4d431ff6bc22fa"
+
+[[projects]]
+  digest = "1:2e773a3cc2e7b958285a8cd2668af959d6c617734e57693ee35d247b2de5d170"
+  name = "github.com/prometheus-community/windows_exporter"
+  packages = ["log"]
+  pruneopts = "UT"
+  revision = "f316d81d50738eb0410b0748c5dcdc6874afe95a"
+  version = "v0.16.0"
 
 [[projects]]
   branch = "master"
@@ -132,9 +175,10 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/mjtrangoni/pacemaker_exporter/collector",
+    "github.com/prometheus-community/windows_exporter/log",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
-    "github.com/prometheus/common/log",
     "github.com/prometheus/common/version",
     "gopkg.in/alecthomas/kingpin.v2",
   ]
